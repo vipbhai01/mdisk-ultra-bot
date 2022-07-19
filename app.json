@@ -1,0 +1,45 @@
+{
+    "name": "MDisk Unlimited Link Convertor Bot",
+    "description": "High Speed ⚡",
+    "keywords": [
+        "telegram",
+        "MDisk",
+        "shortner"
+    ],
+    "website": "https://github.com/vipbhai01/mdisk-ultra-bot",
+    "repository": "https://github.com/vipbhai01/mdisk-ultra-bot",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token (must add)",
+            "value": "5521019918:AAGk7c32-gQ2a8KAKpyh5XmlnCckaaloit0"
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": "14616735"
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": "2a95a21048b0c4bdb5cfa0ca222bf921"
+        },
+        "CUSTOM_FOOTER": {
+            "description": "Enter your Custom Footer",
+            "value": "JOIN MY CHANNEL @allserialsshow"
+        },
+        "MDISK_TOKEN": {
+            "description": "Put your MDisk API key here",
+            "value": "zAfa3EadaPxm1sbHa9FU"
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
